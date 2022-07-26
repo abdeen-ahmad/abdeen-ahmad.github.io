@@ -1,8 +1,3 @@
-//-------------------------------------------------
-// Part 1: ASCIIanimation
-//-------------------------------------------------
-
-// Define
 const Game = function (_config) {
     const TEXT_SIZE = ['7pt', '10pt', '12pt', '16pt', '24pt', '32pt'];
 
@@ -80,7 +75,6 @@ const Game = function (_config) {
     }
 }
 
-// On Window ready
 window.onload = () => {
     let game = new Game();
 
